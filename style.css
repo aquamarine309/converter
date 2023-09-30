@@ -1,0 +1,106 @@
+* {
+  font-family:monospace adofai;
+  padding: 0;
+  margin: 0;
+}
+
+@font-face {
+  font-family: adofai;
+  src: url("adofai.ttf")
+}
+
+body {
+    font-size: 15pt;
+}
+.cnTitle {
+  font-size: 28px;
+}
+.enTitle {
+  font-size: 20px;
+}
+.input {
+  overflow: auto;
+  background-color: #f4f3f2;
+}
+.output {
+  font-size: 10px;
+  color: white;
+  border: none;
+  height: 30px;
+  width:100%;
+  background-color: #414954;
+  margin: 0;
+}
+.copy {
+  font-size: 12px;
+  font-family: monospace;
+  float: right;
+  color: white;
+  background-color: #414954;
+  height: 24px;
+  border: 0;
+  margin-left:5px;
+  margin-right: 5px;
+}
+
+.word {
+  color:#AEF1FF;
+}
+.number {
+  color: #C3E8D1;
+}
+.key {
+  color: #A6FFBD;
+}
+.key2 {
+  color: #FFF8D3;
+}
+.boolean {
+  color: #D3A0FF;
+}
+.normal {
+  color: white;
+}
+.type {
+  color: rgb();
+}
+.light {
+  width: 45pt;
+  height: 15pt;
+  border:none;
+  border-radius: 3px;
+  background-color: #faa;
+  transform: translateY(-4px);
+  box-shadow: 1px 1px 1px #cfcfcf;
+}
+#modes div {
+  text-align: right;
+  margin-top: 10px;
+  line-height: 150%;
+  width: 255px;
+  height: 30px;
+  transform: translateX(-225px);
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  z-index: 1
+}
+#modes div:nth-child(2n) {
+  background-color: #aaf;
+}
+
+#modes div:nth-child(2n+1) {
+  background-color: #faa;
+}
+
+#modes div input[type="radio"] {
+  opacity: 0;
+}
+.color {
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  display: inline-block;
+  border: solid;
+  border-color: #ccc;
+  transform: translateY(2px);
+}
